@@ -1,0 +1,14 @@
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\bin\Debug\WpfApplication4.exe
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\bin\Debug\WpfApplication4.pdb
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.csprojResolveAssemblyReference.cache
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MainWindow.g.cs
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\App.g.cs
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4_MarkupCompile.cache
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4_MarkupCompile.lref
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\MainWindow.baml
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.g.resources
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.Properties.Resources.resources
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.csproj.GenerateResource.Cache
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.exe
+c:\users\raj\documents\visual studio 2015\Projects\WpfApplication4\WpfApplication4\obj\Debug\WpfApplication4.pdb
+C:\Users\raj\Documents\Visual Studio 2015\Projects\WpfApplication4\WpfApplication4\bin\Debug\WpfApplication4.exe.config
