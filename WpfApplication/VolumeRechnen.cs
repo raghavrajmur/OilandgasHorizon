@@ -3,22 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+/*Autor: Rajesh Murali*/
 
 namespace WpfApplication
 {
-    class RechnVolume
+    class VolumeRechnen
     {
 
         private const double CubicFeet2CubicMeter = 0.0283168;
         private const double CubicFeet2Barrel = 0.237476809;
 
         private List<long> tops;
-        private RechnParameters rpm;
+        private ParameterRechnen pmr;
 
-        public RechnVolume(List<long> tops, ref RechnParameters rechnParam)
+        public VolumeRechnen(List<long> tops, ref ParameterRechnen rechnParam)
         {
             this.tops = tops;
-            this.rpm = rechnParam;
+            this.pmr = rechnParam;
         }
 
         public double ReVolume()
@@ -31,20 +32,20 @@ namespace WpfApplication
 
             foreach (long top in tops)
             {
-                bot = top + rpm.BASEDELTA;
-                sum += top >= rpm.FLUIDCONTACT ? 0.0 : bot > rpm.FLUIDCONTACT ? rpm.FLUIDCONTACT - top : bot - top;
+                bot = top + pmr.BASEDELTA;
+                sum += top >= pmr.FLUIDCONTACT ? 0.0 : bot > pmr.FLUIDCONTACT ? pmr.FLUIDCONTACT - top : bot - top;
             }
 
-            switch (rpm.UNIT)
+            switch (pmr.UNIT)
             {
                 case VolumeUnit.CubicFeet:
-                    vol = rpm.CELLAREA * sum;
+                    vol = pmr.CELLAREA * sum;
                     break;
                 case VolumeUnit.CubicMeter:
-                    vol = rpm.CELLAREA * sum * CubicFeet2CubicMeter;
+                    vol = pmr.CELLAREA * sum * CubicFeet2CubicMeter;
                     break;
                 case VolumeUnit.Barrel:
-                    vol = rpm.CELLAREA * sum * CubicFeet2Barrel;
+                    vol = pmr.CELLAREA * sum * CubicFeet2Barrel;
                     break;
                 default:
                     break;

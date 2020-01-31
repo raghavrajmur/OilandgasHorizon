@@ -1,15 +1,16 @@
-This project is created using Visual Studio 2015. 
+Dieses Projekt würde aus Visual Studio 2019 konzipiert und Umgesetzt
 
-Prerequisites
-1. Visual Studio 2015 IDE
+Voraussetzung
+1. Umgebung: Microsoft Visual Studio IDE >= 2015  IDE mit Windows Presentation Foundation
 
 
-Instructions
-1. Unzip the file to your local repository (eg: "C:\Users\raj\Documents\WpfApplication")
-2. Open the WpfApplication4.sln file in Visual Studio 2015
-3. After verifying that the project is completely loaded in Solution explorer run the Project or type the F5 key on keyboard
-4. Browse the depthValuesCSV file
-5. Choose a Unit using the radio button provided (Try choosing different units each time eg. "cubic Feet" or "cubic meter" or "barrels"
-6. Click on "Rechnen" button to calculate the volume
-7. Observe the calculated value in the "Volumen wert" text box.
-8. Click on "Beenden" to exit the application
+Anweisungen
+1. Klonen Sie sich die repository auf Ihr eigene arbeitsplatz (z.B., "C:\Users\raj\Documents\WpfApplication")
+2. öffnen Sie sich das WpfApplication.sln Datei in Visual Studio Software
+3. nachdem Sie überprüft haben, dass das Projekt vollständig in den Lösungsexplorer geladen ist, 
+   führen Sie das Projekt aus oder drucken Sie die F5-Taste auf der Tastatur ein.
+4. durchsuchen Sie das depthValuesCSV file
+5. wählen Sie eine Einheit mit dem Optionsfeld z. B. "cubic Feet" or "cubic meter" or "barrels"
+6. klicken Sie auf die Schaltfläche "Rechnen", um das Volumen zu berechnen
+7. beobachten Sie den berechneten Wert im Textfeld "Volumen wert".
+8. klicken Sie auf "Beenden", um die Anwendung zu beenden

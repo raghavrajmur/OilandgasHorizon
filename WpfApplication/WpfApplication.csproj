@@ -58,8 +58,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="RechnParameters.cs" />
-    <Compile Include="RechnVolume.cs" />
+    <Compile Include="ParameterRechnen.cs" />
+    <Compile Include="VolumeRechnen.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

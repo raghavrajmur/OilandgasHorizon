@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+/*Autor: Rajesh Murali*/
 
 namespace WpfApplication
 {
-    public struct RechnParameters
+    public struct ParameterRechnen
     {
         private VolumeUnit unit;
         private long CellArea;     
         private double FluidContact; 
         private double BaseDelta;   
 
-        public RechnParameters(long ca, double bd, double fc, VolumeUnit un)
+        public ParameterRechnen(long ca, double bd, double fc, VolumeUnit un)
         {
             CellArea = ca;
             BaseDelta = bd;

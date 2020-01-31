@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Microsoft.Win32;
-
+/*Autor: Rajesh Murali*/
 
 namespace WpfApplication
 {
@@ -26,8 +26,7 @@ namespace WpfApplication
     public partial class MainWindow : Window
     {
         private const double Meter2Feet = 3.28084;
-
-            private const long cellArea = 200 * 200;
+        private const long cellArea = 200 * 200;
         private const double baseDelta = 100 * Meter2Feet;
         private const double fluidContact = 3000 * Meter2Feet;
         private List<long> lVolTops = new List<long>();
@@ -156,8 +155,8 @@ namespace WpfApplication
                 vu = VolumeUnit.Barrel;
             }
 
-            RechnParameters cp = new RechnParameters(cellArea, baseDelta, fluidContact, vu);
-            RechnVolume cv = new RechnVolume(lVolTops, ref cp);
+            ParameterRechnen cp = new ParameterRechnen(cellArea, baseDelta, fluidContact, vu);
+            VolumeRechnen cv = new VolumeRechnen(lVolTops, ref cp);
             textBox1.Text = cv.ReVolume().ToString();
         }
         private void buttonclose_click(object sender, RoutedEventArgs e)

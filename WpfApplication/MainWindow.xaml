@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApplication4"
         mc:Ignorable="d"
-        Title="Berechnen Sie das Volumen von Öl und Gas aus einer CSV-Datei" Height="900" Width="1200">
+        Title="Das Öl und gas volumen semi-automatish aus einer CSV-Datei rechnen" Height="900" Width="1200">
     <Grid Margin="-15,0,-93,-208" Height="900" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="1200">
         <Button x:Name="button"  HorizontalAlignment="Left" Margin="175,258,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click">
             <TextBlock x:Name="textBlock" TextWrapping="Wrap" Text="BrowseDatei"/>
@@ -17,10 +17,10 @@
         <RadioButton x:Name="radioButton2" Content="barrels" HorizontalAlignment="Left" Margin="805,411,0,0" VerticalAlignment="Top" />
         <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="36" Margin="443,522,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="561"/>
         <Label x:Name="label" Content="Volumen wert" HorizontalAlignment="Left" Margin="320,522,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.347,0.488"/>
-        <Label x:Name="label1" Content="Bitte unit Wählen" HorizontalAlignment="Left" Height="36" Margin="169,378,0,0" VerticalAlignment="Top" Width="176"/>
+        <Label x:Name="label1" Content="Bitte daten einheit Wählen" HorizontalAlignment="Left" Height="36" Margin="169,378,0,0" VerticalAlignment="Top" Width="176"/>
         <Label x:Name="label2" Content="Anweisungen" HorizontalAlignment="Left" Margin="536,-60,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.839,0.224"/>
         <Label x:Name="label3" Content="1. Browse Datei" HorizontalAlignment="Left" Margin="538,-15,0,0" VerticalAlignment="Top" Width="295"/>
-        <Label x:Name="label4" Content="2. Unit Wählen" HorizontalAlignment="Left" Height="35" Margin="538,24,0,0" VerticalAlignment="Top" Width="197"/>
+        <Label x:Name="label4" Content="2. Daten Einheit Wählen" HorizontalAlignment="Left" Height="35" Margin="538,24,0,0" VerticalAlignment="Top" Width="197"/>
         <Label x:Name="label5" Content="3. Volumen Rechnen" HorizontalAlignment="Left" Margin="538,62,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.379,2.211" Width="177"/>
         <Button x:Name="button2" Content="Beenden" HorizontalAlignment="Left" Margin="561,623,0,0" VerticalAlignment="Top" Width="75" Click="buttonclose_click"/>
 
